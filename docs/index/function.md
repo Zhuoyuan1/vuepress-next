@@ -86,7 +86,7 @@ next: /index/version.md
    ├── `key.property` _(**数据库密码加、解密的key**)_
    └── ~~mysql.ini~~ _(**旧版本中配置文件，已废弃**)_
 ```
-
+~~mysql.ini~~
 `Windows`  
 配置文件路径：`C:\Users\你的用户名\Documents\.EasyConnect`  
 

@@ -8,21 +8,21 @@ module.exports = {
   head: [
     // 页面icon
     ['link', { rel: 'icon', href: '/logo.svg' }],
-    // 添加百度统计
-    // ["script", {},
-    // `
-    //   var _hmt = _hmt || [];
-    //   (function() {
-    //     var hm = document.createElement("script");
-    //     hm.src = "https://hm.baidu.com/hm.js?28f009fe9a30092a030ab728baad5349";
-    //     var s = document.getElementsByTagName("script")[0];
-    //     s.parentNode.insertBefore(hm, s);
-    //   })();
-    // `
-    // ]
+    //添加百度统计
+    ["script", {},
+    `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?28f009fe9a30092a030ab728baad5349";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `
+    ]
   ],
   // 端口号
-  port: 3001,
+  port: 3000,
   markdown: {
     // 代码块行号
     lineNumbers: false,
@@ -35,15 +35,17 @@ module.exports = {
     },
   },
   themeConfig: {
+    docsDir: 'docs',
     // 所有页面自动生成侧边栏
     //sidebar: 'auto',
     // 最后更新时间
     //lastUpdated: true,
     // 编辑链接
-    editLink: false,
-    lastUpdatedText: '最后更新时间',
+    editLinkText: '在 GitHub 上编辑此页',
+    lastUpdatedText: '上次更新',
+    contributorsText: '贡献者',
     // 仓库地址
-    repo: 'https://github.com/Zhuoyuan1/MySQLToWordOrExcel',
+    repo: 'https://github.com/Zhuoyuan1/vuepress-next',
     // 仓库链接label
     repoLabel: 'Github',
     
@@ -73,8 +75,12 @@ module.exports = {
       },
       {
         type: 'vue',
-        before: '<pre class="vue-container"><code>',
-        after: '</code></pre>'
+        locales: {
+          '/': {
+            before: () => '<pre class="vue-container"><code>',
+            after: () => '</code></pre>'
+          }
+        }
       }
     ],
     [
