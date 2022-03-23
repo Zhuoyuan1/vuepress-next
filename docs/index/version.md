@@ -5,6 +5,15 @@ next: false
 
 # 版本记录
 
+## version 0.1.0
+* 【新增】新增oracle连接支持
+* 【界面】界面调整 => `mysql`连接时，数据库非必填；`oracle`连接时，数据库默认为`orcl`
+* 【功能】从navicat导出ncx文件，然后导入连接到本工具；增加保存配置、还原主题（有bug）后，自动重启功能
+* 【excel】excel支持多sheet导出 （[@大多数](https://gitee.com/whj_sunlight)）
+* 【word】word模板 表名更改为数字序号 （[@杨行](https://gitee.com/creyanghang)）
+* 【bug】修复若干bug
+* 另：谢谢大家的支持和建议
+
 ## version 0.0.9
 * 【图标】优化图标显示
 * 【优化】代码整体重构（主要是为开源做准备，嘻嘻），适应后期不同数据库的连接
@@ -28,7 +37,7 @@ next: false
 ## version 0.0.6
 * 【界面】新增更换主题功能
 * 【优化】首页连接数据库失败时，原因信息完整展示；代码重构，优化速度
-*  <font color=red>【新增】单击左侧树，查看表结构；双击树，查看表数据</font>
+* <div style="color:red">【新增】单击左侧树，查看表结构；双击树，查看表数据</div>
 
 ## version 0.0.5
 * 删减  

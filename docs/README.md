@@ -3,7 +3,7 @@ home: true
 lang: zh-CN
 name: 首页
 heroText: EasyConnect
-heroImage: /logo.png
+heroImage: /images/logo.png
 actions:
   - text: 开始 →
     link: /index/

@@ -1,5 +1,3 @@
-import { path } from '@vuepress/utils'
-
 module.exports = {
   // 页面标题
   title: 'EasyConnect',
@@ -23,17 +21,6 @@ module.exports = {
   ],
   // 端口号
   port: 3000,
-  markdown: {
-    // 代码块行号
-    lineNumbers: false,
-    importCode: {
-      handleImportPath: (str) =>
-        str.replace(
-          /^@vuepress/,
-          path.resolve(__dirname, '../../packages/@vuepress')
-        ),
-    },
-  },
   themeConfig: {
     docsDir: 'docs',
     // 所有页面自动生成侧边栏
@@ -72,15 +59,6 @@ module.exports = {
             defaultInfo: '提示',
           },
         },
-      },
-      {
-        type: 'vue',
-        locales: {
-          '/': {
-            before: () => '<pre class="vue-container"><code>',
-            after: () => '</code></pre>'
-          }
-        }
       }
     ],
     [
@@ -92,6 +70,6 @@ module.exports = {
           },
         },
       },
-    ],
+    ]
   ]
 }
