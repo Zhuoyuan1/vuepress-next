@@ -5,7 +5,7 @@ next: /index/function.md
 # 界面
 
 ## 介绍
-`EasyConnect` 是一款数据库表结构导出工具，用以连接`MySQL`、`Oracle`、`SQLServer`等不同类型的数据库，并支持查看`表数据`和`结构`信息，快速形成丰富的数据库设计文档（`Word`、`Excel`等格式）。
+`EasyDataBaseExport` 是一款数据库表结构导出工具，用以连接`MySQL`、`Oracle`、`SQLServer`等不同类型的数据库，并支持查看`表数据`和`结构`信息，快速形成丰富的数据库设计文档（`Word`、`Excel`等格式）。
 
 ## 页面
 
@@ -38,4 +38,4 @@ next: /index/function.md
 
 【界面】  
 
- `EasyConnect`界面分为左、中、右页面布局，其中左侧为`连接-数据库-表`的树状结构，中间部分显示`表结构`信息和`表数据`信息，右侧部分展示`常规`信息和`DLL`信息  
+ `EasyDataBaseExport`界面分为左、中、右页面布局，其中左侧为`连接-数据库-表`的树状结构，中间部分显示`表结构`信息和`表数据`信息，右侧部分展示`常规`信息和`DLL`信息  

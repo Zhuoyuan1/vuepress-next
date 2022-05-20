@@ -2,7 +2,7 @@
 home: true
 lang: zh-CN
 name: 首页
-heroText: EasyConnect
+heroText: EasyDataBaseExport
 heroImage: /images/logo.png
 actions:
   - text: 开始 →

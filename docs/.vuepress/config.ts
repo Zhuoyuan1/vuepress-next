@@ -1,8 +1,8 @@
 module.exports = {
   // 页面标题
-  title: 'EasyConnect',
+  title: 'EasyDataBaseExport',
   // 网页描述
-  description: 'EasyConnect说明文档',
+  description: 'EasyDataBaseExport说明文档',
   head: [
     // 页面icon
     ['link', { rel: 'icon', href: '/logo.svg' }],
@@ -12,7 +12,7 @@ module.exports = {
       var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?28f009fe9a30092a030ab728baad5349";
+        hm.src = "https://hm.baidu.com/hm.js?689bb9de546fd0008a340e87aa9c3f66";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
       })();

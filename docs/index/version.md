@@ -9,8 +9,8 @@ next: false
 * 【新增】新增oracle连接支持
 * 【界面】界面调整 => `mysql`连接时，数据库非必填；`oracle`连接时，数据库默认为`orcl`
 * 【功能】从navicat导出ncx文件，然后导入连接到本工具；增加保存配置、还原主题（有bug）后，自动重启功能
-* 【excel】excel支持多sheet导出 （[@大多数](https://gitee.com/whj_sunlight)）
-* 【word】word模板 表名更改为数字序号 （[@杨行](https://gitee.com/creyanghang)）
+* 【excel】excel支持多sheet导出 （感谢[@大多数](https://gitee.com/whj_sunlight)建议）
+* 【word】word模板 表名更改为数字序号 （感谢[@杨行](https://gitee.com/creyanghang)建议）
 * 【bug】修复若干bug
 * 另：谢谢大家的支持和建议
 

@@ -77,23 +77,23 @@ next: /index/version.md
 `双击`左侧树中`表名`，在中部会展示表的数据信息
 
 ### 2.配置文件
-`EasyConnect` 配置文件目录结构如下：
+`EasyDataBaseExport` 配置文件目录结构如下：
 
 ```md
 .
-└─ .EasyConnect
+└─ .EasyDataBaseExport
    ├── `database.ini` _(**用于储存数据连接信息、主题等配置信息**)_
    ├── `key.property` _(**数据库密码加、解密的key**)_
    └── ~~mysql.ini~~ _(**旧版本中配置文件，已废弃**)_
 ```
 
 `Windows`  
-配置文件路径：`C:\Users\你的用户名\Documents\.EasyConnect`  
+配置文件路径：`C:\Users\你的用户名\Documents\.EasyDataBaseExport`  
 
 `Mac`  
-配置文件路径：`/Users/你的用户名/.EasyConnect`  
+配置文件路径：`/Users/你的用户名/.EasyDataBaseExport`  
 
 `Lunix`  
-配置文件路径：`/home/你的用户名/.EasyConnect`
+配置文件路径：`/home/你的用户名/.EasyDataBaseExport`
 
  
