@@ -82,6 +82,7 @@ next: /index/version.md
 ```md
 .
 └─ .EasyDataBaseExport
+   ├── `template` _(**模板存放的文件夹**)_
    ├── `database.ini` _(**用于储存数据连接信息、主题等配置信息**)_
    ├── `key.property` _(**数据库密码加、解密的key**)_
    └── ~~mysql.ini~~ _(**旧版本中配置文件，已废弃**)_
