@@ -28,7 +28,8 @@ footer: Copyright © 2022-present 像风一样 | <a href="https://beian.miit.gov
 ## ⚡️未来...  
 
 1.支持更多数据库（[欢迎提issues](https://gitee.com/lzy549876/EasyDataBaseExport/issues)）✊  
-2.支持更多导出格式（[欢迎提issues](https://gitee.com/lzy549876/EasyDataBaseExport/issues)）:muscle:
+2.支持更多导出格式（[欢迎提issues](https://gitee.com/lzy549876/EasyDataBaseExport/issues)）:muscle:  
+......
 
 ## :pushpin: Jetbrains插件
 
@@ -44,7 +45,7 @@ footer: Copyright © 2022-present 像风一样 | <a href="https://beian.miit.gov
 
 如果你正在使用这个项目并感觉良好，或只是想要支持我继续开发，你可以通过如下*任意* 方式支持我：
 
-1. *Star* 并 分享这个项目 :rocket:
+1. *[Star](https://gitee.com/lzy549876/EasyDataBaseExport)* 并 分享这个项目 :rocket:
 2. [CSDN博客一键三连](https://blog.csdn.net/kkk123445/article/details/115748954)  :D
 3. 通过以下二维码 一次性捐款。 我多半会买一杯 ~~咖啡~~ 茶。:tea:
 

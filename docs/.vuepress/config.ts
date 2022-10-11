@@ -28,13 +28,18 @@ module.exports = {
     // 最后更新时间
     //lastUpdated: true,
     // 编辑链接
-    editLinkText: '在 GitHub 上编辑此页',
+    //editLinkText: '在 GitHub 上编辑此页',
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者',
     // 仓库地址
-    repo: 'https://github.com/Zhuoyuan1/vuepress-next',
+    repo: 'Zhuoyuan1/MySQLToWordOrExcel',
     // 仓库链接label
     repoLabel: 'Github',
+
+    docsRepo: "Zhuoyuan1/vuepress-next",
+    docsBranch: "main",
+    editLinks: true,
+    editLinkText: "帮助我们改善此页面！",
     
     sidebarDepth: 2,
     sidebar: [
