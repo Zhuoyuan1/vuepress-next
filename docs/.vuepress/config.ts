@@ -5,7 +5,7 @@ module.exports = {
   description: 'EasyDataBaseExport说明文档',
   head: [
     // 页面icon
-    ['link', { rel: 'icon', href: '/logo.svg' }],
+    ['link', { rel: 'icon', href: '/images/logo.svg' }],
     //添加百度统计
     ["script", {},
     `
