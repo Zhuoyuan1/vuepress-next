@@ -52,6 +52,32 @@ next: /index/version.md
 ②  `Microsoft Office`打开时，会提示`该文档包含的域可能引用了文件，是否更新该文档当中的这些域？`，选择`是`，即可自动生成目录；  
 `WPS`打开时，不会提醒更新域，用户可以手动生成目录。
 
+
+### 3.导出文档格式速览
++ Word
+  
+![在这里插入图片描述](/images/Word.png)
+
++ Excel
+
+![在这里插入图片描述](/images/Excel.png)
+
+多sheet
+![在这里插入图片描述](/images/Excel_sheet.png)
+
++ Markdown
+
+![在这里插入图片描述](/images/Markdown.png)
+
++ Html
+
+![在这里插入图片描述](/images/Html.png)
+
++ Pdf
+  
+![在这里插入图片描述](/images/Pdf.png)
+
+
 ## 五、导入Navicat配置
 
 ### 1.导出Navicat配置

@@ -5,6 +5,14 @@ next: false
 
 # 版本记录
 
+### version 0.1.3
+
+* 【新增】新增虚谷（XuGu）支持
+* 【导出】新增Markdown、Html、Pdf导出支持
+* 【功能】首页数据库的选择，增加对应图标
+* 【修改】输入ip和端口时，增加模糊匹配
+* 【bug】修复若干bug
+
 ## version 0.1.2  
 * 【新增】新增pgsql、（达梦-DM8）dm、（人大金仓-kingbaseV8）kingbase、DB2支持
 * 【功能】全局异常日志捕捉，存入本地 （感谢@tigercat66 贡献的代码）
