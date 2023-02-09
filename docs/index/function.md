@@ -124,7 +124,7 @@ next: /index/version.md
 
 ```md
 .
-└─ .EasyDataBaseExport
+└─ .EasyConnect
    ├── `template` _(**模板存放的文件夹**)_
    ├── `database.ini` _(**用于储存数据连接信息、主题等配置信息**)_
    ├── `key.property` _(**数据库密码加、解密的key**)_
@@ -132,12 +132,12 @@ next: /index/version.md
 ```
 
 `Windows`  
-配置文件路径：`C:\Users\你的用户名\Documents\.EasyDataBaseExport`  
+配置文件路径：`C:\Users\你的用户名\Documents\.EasyConnect`  
 
 `Mac`  
-配置文件路径：`/Users/你的用户名/.EasyDataBaseExport`  
+配置文件路径：`/Users/你的用户名/.EasyConnect`  
 
 `Lunix`  
-配置文件路径：`/home/你的用户名/.EasyDataBaseExport`
+配置文件路径：`/home/你的用户名/.EasyConnect`
 
  
