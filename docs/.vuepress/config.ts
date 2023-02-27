@@ -32,7 +32,7 @@ module.exports = {
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者',
     // 仓库地址
-    repo: 'Zhuoyuan1/MySQLToWordOrExcel',
+    repo: 'Zhuoyuan1/EasyDataBaseExport',
     // 仓库链接label
     repoLabel: 'Github',
 
@@ -52,7 +52,7 @@ module.exports = {
     navbar: [
       { text: '说明文档',link: '/index/'},
       { text: '工具下载【密码1111】', link: 'https://wwz.lanzouo.com/b02c7c0cb'},
-      { text: 'Gitee', link: 'https://gitee.com/lzy549876/MySQLToWordOrExcel'}
+      { text: 'Gitee', link: 'https://gitee.com/lzy549876/EasyDataBaseExport'}
   ]},
   plugins: [
     [
