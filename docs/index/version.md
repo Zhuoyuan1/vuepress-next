@@ -5,6 +5,21 @@ next: false
 
 # 版本记录
 
+### version 0.1.6
+
+* 【新增】优化首页和连接页的ui细节
+* 【功能】编辑连接时，增加上移、下移功能
+* 【优化】针对MacOS系统优化显示效果；连接页面输入连接时优化匹配算法；去除直接显示搜索框，改为ctrl+f快捷键显示搜索
+* 【页面】新增工具logo；优化导出提示框显示问题；提示框删除关闭按钮功能
+* 【bug】修复重启的bug；（未关闭的程序）确认保存后，会记忆用户选择的连接并存储回显；解决本地日志文件乱码问题；日志公共方法封装
+* 【日志】出错日志显示的条件更改为用户手动配置，需要在ini文件中[config]下增加run_level=dev，即可显示报错日志 
+![不使用别名引用](/images/log.png)   
+::: tip 日志文件位置  
+* `Windows`:`C:\Users\你的用户名\EasyConnect*.log（*表示数字0、1、2……）`  
+* `Mac`:`/Users/你的用户名/EasyConnect*.log`  
+* `Lunix`:`/home/你的用户名/EasyConnect*.log`
+* `Other`: 日志在 `System.getProperty("user.home")` 获取的目录下 
+:::
 ### version 0.1.5
 
 * 【新增】新增错误日志弹窗，并打开错误日志目录；新增模板文件版权信息
